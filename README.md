@@ -7,26 +7,27 @@ This project demonstrates a simple image classification application using Tensor
 # Components
 
 1. **Model Architecture**:
-   - • MobileNetV2 as the base model with weights pre-trained on ImageNet.
-   - • Additional layers for global average pooling and dense classification.
-   - • Compiled with Adam optimizer and categorical crossentropy loss.
+   • MobileNetV2 as the base model with weights pre-trained on ImageNet.
+   • Additional layers for global average pooling and dense classification.
+   • Compiled with Adam optimizer and categorical crossentropy loss.
 
 2. **Data Preparation**:
-   - • Uses `ImageDataGenerator` for training and validation data.
-   - • Performs data augmentation including rotation, shifting, shearing, zooming, and flipping.
+   • Uses `ImageDataGenerator` for training and validation data.
+   • Performs data augmentation including rotation, shifting, shearing, zooming, and flipping.
 
 3. **Image Classification**:
-   - • Preprocesses input images to match the model's expected input format.
-   - • Predicts the class of the input image and maps the predicted index to the class label.
+   • Preprocesses input images to match the model's expected input format.
+   • Predicts the class of the input image and maps the predicted index to the class label.
 
 4. **GUI Application**:
-   - • Built with Tkinter to open and display images.
-   - • Shows the predicted class of the uploaded image.
+   • Built with Tkinter to open and display images.
+   • Shows the predicted class of the uploaded image.
 
 # Installation
 1. **Clone the repository**:
-   git clone [repository-url](https://github.com/username/repository.git)
-2. **Install the required packages**: Run the following command:
+   ```bash
+    git clone [repository-url](https://github.com/username/repository.git)
+3. **Install the required packages**: Run the following command:
    ```bash
    pip install tensorflow pillow numpy
 

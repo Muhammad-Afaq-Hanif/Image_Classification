@@ -97,7 +97,7 @@ predicted_class = predict_image(input_image)
 
 
 window = tk.Tk()
-window.title("Image Recognition")
+window.title("Image Classification")
 window.geometry("400x400")
 
 def open_image():
